@@ -29,7 +29,7 @@ spec:
             claimName: output-pvc
       containers:
       - name: handbrake
-        image: jlesage/handbrake
+        image: jlesage/handbrake:v24.01.2
         ports:
         - containerPort: 5800
         env:
