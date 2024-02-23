@@ -32,11 +32,10 @@ spec:
         image: jlesage/handbrake:v24.01.2
         ports:
         - containerPort: 5800
+        {{- with .Values.env }}
         env:
-          {{- with .Values.env }}
-          env:
-            {{- toYaml . | nindent 8 }}
-          {{- end }}
+          {{- toYaml . | nindent 8 }}
+        {{- end }}
         volumeMounts:
           - name: config
             mountPath: /config
