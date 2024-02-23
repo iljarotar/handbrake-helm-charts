@@ -3,7 +3,17 @@ entries:
   handbrake:
   - apiVersion: v2
     appVersion: 24.01.2
-    created: "2024-02-23T13:18:50.06526536+01:00"
+    created: "2024-02-23T13:20:14.171573133+01:00"
+    description: A Helm chart for Kubernetes
+    digest: f21cdcdf1dd6e9c98e82c82effb0b386fe8659296a43b62d7652fc0fda5a291d
+    name: handbrake
+    type: application
+    urls:
+    - https://iljarotar.github.io/handbrake-helm-charts/docs/handbrake-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 24.01.2
+    created: "2024-02-23T13:20:14.171314309+01:00"
     description: A Helm chart for Kubernetes
     digest: 1f6f776738c4e21209e9187e85a3114f3c5bed10feea7cda2e917bc8d0a3153f
     name: handbrake
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-23T13:18:50.064978467+01:00"
+    created: "2024-02-23T13:20:14.170997863+01:00"
     description: A Helm chart for Kubernetes
     digest: 2dbc045da70fa12d69e65f702d05030aaffdf045bf132e1b6fc62024d789c102
     name: handbrake
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://iljarotar.github.io/handbrake-helm-charts/docs/handbrake-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-23T13:18:50.064425387+01:00"
+generated: "2024-02-23T13:20:14.170410172+01:00"
